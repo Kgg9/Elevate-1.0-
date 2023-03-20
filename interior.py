@@ -61,6 +61,8 @@ def main():
         self.timer = QTimer()
         self.timer.timeout.connect(lambda: self.update_floor(floor, step, direction))
         self.timer.start(500)
+
+
     def update_floor(self, target_floor, step, direction):
         current_floor = int(self.displayFloor.value())
         if current_floor == target_floor:
