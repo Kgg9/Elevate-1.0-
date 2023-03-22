@@ -13,7 +13,6 @@ class elevator:
         self.direction = "Up"
 
     def setFloorQueue(self):
-        # self.floorQueue.append('Occupied')
         for i in range(self.maxFloors):
             self.floorQueue.append(0)
 
@@ -50,8 +49,9 @@ class elevator:
 
     def reachedFloor(self):
         self.toggleOff(self.currentFloor)
-        self.floorOcuppied(self.nextFloor)
+        # self.floorOcuppied(self.nextFloor)
         self.currentFloor = self.nextFloor
+        self.nextFloor = None
 
     def getMaxFloors(self):
         return self.maxFloors
@@ -67,6 +67,93 @@ class elevator:
 
 
 
+
+
+def main():
+    Elevate = elevator(5, 3)
+    Elevate.setFloorQueue()
+    print(Elevate.floorQueue)
+    print(f"The staring Direction: {Elevate.direction}\n")
+
+    Elevate.toggleOn(1)
+    Elevate.toggleOn(3)
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    Elevate.toggleOn(0)
+    Elevate.toggleOn(2)
+    Elevate.toggleOn(4)
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    Elevate.toggleOn(4)
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    Elevate.toggleOn(1)
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+    Elevate.toggleOn(0)
+
+    print(Elevate.floorQueue)
+    Elevate.setDirection()
+    Elevate.getNextFloor()
+    print(f"The next Floor the Elevator is going to is: {Elevate.nextFloor}")
+    Elevate.reachedFloor()
+    print(Elevate.floorQueue)
+    print(f"The Elevator has reached the Floor: {Elevate.currentFloor}\n")
+
+if __name__ == "__main__":
+   main()
 
 
 # class randomPeople:

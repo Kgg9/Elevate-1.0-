@@ -6,22 +6,22 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>800</width>
-    <height>600</height>
+    <width>827</width>
+    <height>762</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">background-color: rgb(131, 105, 83);</string>
+   <string notr="true">background-color: rgb(152, 152, 152);</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pressButton8">
+   <widget class="QPushButton" name="pressButton10">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>70</y>
+      <x>590</x>
+      <y>240</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -34,14 +34,14 @@ border-radius: 16px;
 border-color: black;</string>
     </property>
     <property name="text">
-     <string>8</string>
+     <string>10</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pressButton9">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>70</y>
+      <x>650</x>
+      <y>240</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -57,11 +57,11 @@ border-color: black;</string>
      <string>9</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pressButton6">
+   <widget class="QPushButton" name="pressButton8">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>130</y>
+      <x>590</x>
+      <y>280</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -74,14 +74,14 @@ border-radius: 16px;
 border-color: black;</string>
     </property>
     <property name="text">
-     <string>6</string>
+     <string>8</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pressButton7">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>130</y>
+      <x>650</x>
+      <y>280</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -97,11 +97,11 @@ border-color: black;</string>
      <string>7</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pressButton4">
+   <widget class="QPushButton" name="pressButton6">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>190</y>
+      <x>590</x>
+      <y>320</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -114,14 +114,14 @@ border-radius: 16px;
 border-color: black;</string>
     </property>
     <property name="text">
-     <string>4</string>
+     <string>6</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pressButton5">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>190</y>
+      <x>650</x>
+      <y>320</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -137,11 +137,11 @@ border-color: black;</string>
      <string>5</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pressButton2">
+   <widget class="QPushButton" name="pressButton4">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>250</y>
+      <x>590</x>
+      <y>360</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -154,14 +154,14 @@ border-radius: 16px;
 border-color: black;</string>
     </property>
     <property name="text">
-     <string>2</string>
+     <string>4</string>
     </property>
    </widget>
    <widget class="QPushButton" name="pressButton3">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>250</y>
+      <x>650</x>
+      <y>360</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -177,11 +177,31 @@ border-color: black;</string>
      <string>3</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="pressButton2">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>400</y>
+      <width>41</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(176, 174, 178);
+border-style: outset;
+border-width: 2px;
+border-radius: 16px;
+border-color: black;</string>
+    </property>
+    <property name="text">
+     <string>2</string>
+    </property>
+   </widget>
    <widget class="QPushButton" name="pressButton1">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>310</y>
+      <x>590</x>
+      <y>400</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -197,41 +217,27 @@ border-color: black;</string>
      <string>1</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pressButtonG">
-    <property name="geometry">
-     <rect>
-      <x>300</x>
-      <y>310</y>
-      <width>41</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(176, 174, 178);
-border-style: outset;
-border-width: 2px;
-border-radius: 16px;
-border-color: black;</string>
-    </property>
-    <property name="text">
-     <string>*G</string>
-    </property>
-   </widget>
    <widget class="QPushButton" name="holdOpen">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>370</y>
+      <x>590</x>
+      <y>460</y>
       <width>41</width>
       <height>32</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(176, 174, 178);
+     <string notr="true">QPushButton {
+background-color: rgb(176, 174, 178);
 border-style: outset;
 border-width: 2px;
 border-radius: 16px;
-border-color: black;</string>
+border-color: black;
+}
+
+QPushButton:hover {
+background-color: orange
+}</string>
     </property>
     <property name="text">
      <string>&lt; &gt;</string>
@@ -240,18 +246,24 @@ border-color: black;</string>
    <widget class="QPushButton" name="holdClose">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>370</y>
+      <x>650</x>
+      <y>460</y>
       <width>41</width>
       <height>32</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color: rgb(176, 174, 178);
+     <string notr="true">QPushButton {
+background-color: rgb(176, 174, 178);
 border-style: outset;
 border-width: 2px;
 border-radius: 16px;
-border-color: black;</string>
+border-color: black;
+}
+
+QPushButton:hover {
+background-color: orange
+}</string>
     </property>
     <property name="text">
      <string>&gt; &lt;</string>
@@ -260,8 +272,8 @@ border-color: black;</string>
    <widget class="QPushButton" name="pressCallButton">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>430</y>
+      <x>590</x>
+      <y>500</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -280,8 +292,8 @@ border-color: black;</string>
    <widget class="QPushButton" name="pressHelpButton">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>430</y>
+      <x>650</x>
+      <y>500</y>
       <width>41</width>
       <height>32</height>
      </rect>
@@ -297,50 +309,122 @@ border-color: black;</string>
      <string>Help</string>
     </property>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
-    <property name="geometry">
-     <rect>
-      <x>40</x>
-      <y>60</y>
-      <width>221</width>
-      <height>401</height>
-     </rect>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">background-color: rgb(192, 190, 194);</string>
-    </property>
-   </widget>
-   <widget class="QLCDNumber" name="displayFloor">
-    <property name="geometry">
-     <rect>
-      <x>330</x>
-      <y>20</y>
-      <width>111</width>
-      <height>31</height>
-     </rect>
-    </property>
-   </widget>
-   <widget class="QLineEdit" name="displayArrow">
+   <widget class="QWidget" name="doorRight" native="true">
     <property name="geometry">
      <rect>
       <x>300</x>
-      <y>30</y>
-      <width>21</width>
-      <height>21</height>
+      <y>10</y>
+      <width>201</width>
+      <height>691</height>
      </rect>
     </property>
-    <property name="text">
-     <string/>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(188, 188, 188);</string>
     </property>
    </widget>
+   <widget class="QWidget" name="doorLeft" native="true">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>10</y>
+      <width>201</width>
+      <height>691</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(188, 188, 188);</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="widget_4" native="true">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>170</y>
+      <width>141</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(188, 188, 188);</string>
+    </property>
+    <widget class="QLCDNumber" name="displayFloor">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(0, 0, 0);</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="upArrow">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 18pt &quot;.AppleSystemUIFont&quot;;
+background-color: rgb(0, 0, 0);
+font: 32pt &quot;.AppleSystemUIFont&quot;;
+font: 75 32pt &quot;Verdana&quot;;</string>
+    </property>
+    <property name="text">
+     <string> ↑</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="downArrow">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>110</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 32pt &quot;.AppleSystemUIFont&quot;;
+font: 75 32pt &quot;Verdana&quot;;
+background-color: rgb(0, 0, 0);</string>
+    </property>
+    <property name="text">
+     <string> ↓</string>
+    </property>
+   </widget>
+   <zorder>widget_4</zorder>
+   <zorder>pressButton10</zorder>
+   <zorder>pressButton9</zorder>
+   <zorder>pressButton8</zorder>
+   <zorder>pressButton7</zorder>
+   <zorder>pressButton6</zorder>
+   <zorder>pressButton5</zorder>
+   <zorder>pressButton4</zorder>
+   <zorder>pressButton3</zorder>
+   <zorder>pressButton2</zorder>
+   <zorder>pressButton1</zorder>
+   <zorder>holdOpen</zorder>
+   <zorder>holdClose</zorder>
+   <zorder>pressCallButton</zorder>
+   <zorder>pressHelpButton</zorder>
+   <zorder>doorRight</zorder>
+   <zorder>doorLeft</zorder>
+   <zorder>upArrow</zorder>
+   <zorder>downArrow</zorder>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>800</width>
-     <height>26</height>
+     <width>827</width>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuInterior">
