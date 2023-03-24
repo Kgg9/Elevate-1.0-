@@ -66,16 +66,18 @@ class ElevateInterior(QMainWindow):
     def floorButtonClicked(self):
         btn = self.sender()
 
-        btn.setStyleSheet(self.clickedStyle)
-        self.elevator1.toggleOn(int(btn.text()) - 1)
-        self.displayFloor.setDigitCount(2)
+        if (self.elevator1.currentFloor + 1) != int(btn.text()):
 
-        while (self.signal != 1 and 1 in self.elevator1.floorQueue):
-            self.move_elevator()
+            btn.setStyleSheet(self.clickedStyle)
+            self.elevator1.toggleOn(int(btn.text()) - 1)
+            self.displayFloor.setDigitCount(2)
 
-        if 1 not in self.elevator1.floorQueue:
-            self.intUpArrow.setStyleSheet(self.resetArrowStyle)
-            self.intDownArrow.setStyleSheet(self.resetArrowStyle)
+            while (self.signal != 1 and 1 in self.elevator1.floorQueue):
+                self.move_elevator()
+
+            if 1 not in self.elevator1.floorQueue:
+                self.intUpArrow.setStyleSheet(self.resetArrowStyle)
+                self.intDownArrow.setStyleSheet(self.resetArrowStyle)
 
     def exteriorFloorButtonClicked(self):
         btn = exterior.sender()
